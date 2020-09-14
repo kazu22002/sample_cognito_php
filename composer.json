@@ -1,0 +1,14 @@
+{
+  "minimum-stability": "stable",
+  "require": {
+    "vlucas/phpdotenv": "^5.1",
+    "eftec/bladeone": "^3.47",
+    "aws/aws-sdk-php": "^3.154",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app/"
+    }
+  }
+}
